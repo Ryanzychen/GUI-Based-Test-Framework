@@ -6,7 +6,10 @@ Date: June 2025
 
 Overview
 --------
-This project is a GUI-based test automation framework developed using AutoIt. It automates interactions with Windows Notepad as a demonstration of simulating user behaviors such as clicking menus and saving files. While Notepad is used as the target application, the framework is designed to be extendable to other Windows desktop applications.
+This project is a GUI-based test automation framework developed using AutoIt. It automates interactions with Windows 10 Notepad as a demonstration of simulating user behaviors such as clicking menus and saving files. While Notepad is used as the target application, the framework is designed to be extendable to other Windows desktop applications.
+
+Important:
+This framework is specifically designed and tested with the Windows 10 Notepad UI. Because Notepad’s interface and dialog layouts differ between Windows versions (e.g., Windows 7, 8, 11), the script’s coordinate-based interactions and window titles may not work as expected on other Windows editions without adjustments.
 
 The goal of this project is to showcase how AutoIt can be used to implement an efficient, script-driven, coordinate-based GUI testing solution with logging capabilities and modular test structure.
 
