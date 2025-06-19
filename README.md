@@ -42,7 +42,7 @@ How to Set Up and Run
      - Execute `test_runner.au3`. This will:
      - Clear and initialize the test log file
      - Execute Test_launch_about, Test_add_device, Test_toolsmenu_build and OCR device check
-        Important: The OCR device check may currently produce inaccurate results due to variations in the window size of the MGC-400 Configurator across different desktops. This does not impact the structure 
+        **Important:** The OCR device check may currently produce inaccurate results due to variations in the window size of the MGC-400 Configurator across different desktops. This does not impact the structure 
         of our code or the execution of other automated operations. However, it is an important consideration for future automation work.
      - Display completion messages with color-coded popups
      - Write detailed logs to `test_log.txt` in the same directory
